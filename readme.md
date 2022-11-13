@@ -29,9 +29,10 @@ La web ha d'estar publicada i ser accessible des d'internet.
 Tingues en compte l'ús de material protegit per drets d'autor, com s'especifica en l'últim apartat d'aquest document. Recorda quins són els límits i excepcions a l'hora d'utilitzar materials protegits per drets d'autor.
 A part d'aquests requisits mínims, pots ampliar el teu projecte com ho creguis oportú. Explora!
 
----------------------------------------------------------------------------
-Instal·lació dependencies
-**************************
+--------------------------------------------------------
+1-INSTAL·LACIÓ DEPENDENCIES
+-----------------------------------------
+
 
 npm install
 
@@ -39,19 +40,18 @@ si hi ha errors mirem quins són faltaran dependencies per la instal·lació
 
 
 -------------------------------------------
-EXECUCIÓ PLANTILLA
+2-EXECUCIÓ PLANTILLA
+-------------------------------------------------
 
 Comandaments terminal
 
 1 - Configurar Terminal 1 --> npm start
 2 - Configurar Terminal 2 --> npm run post
 
-
-
-
 --------------------
 
-GITHUB
+3-GITHUB
+--------------------------------
 
 1r pas: git add (afegir canvis)
 
