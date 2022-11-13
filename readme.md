@@ -45,8 +45,9 @@ si hi ha errors mirem quins són faltaran dependencies per la instal·lació
 
 Comandaments terminal
 
-1 - Configurar Terminal 1 --> npm start
-2 - Configurar Terminal 2 --> npm run post
+1-Configurar Terminal 1 --> npm start
+
+2-Configurar Terminal 2 --> npm run post
 
 --------------------
 
