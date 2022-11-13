@@ -39,9 +39,14 @@ Comandaments terminal
 
 --------------------
 
-Github
-git add (afegir canvis)
-git commit -m "missatge que vulguis" (missatge per modificacions)
+GITHUB
+
+1r pas-git add (afegir canvis)
+
+Exemple si has modificat el arxiu index.html fas:
+git add index.html
+
+2n pas-git commit -m "missatge que vulguis" (missatge per modificacions)
 git push (pujada a git)
 
 git pull (baixada de git)
