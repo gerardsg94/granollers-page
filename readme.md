@@ -50,3 +50,6 @@ git add index.html
 git push (pujada a git)
 
 git pull (baixada de git)
+
+
+Hola cris
