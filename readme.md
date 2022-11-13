@@ -30,6 +30,15 @@ Tingues en compte l'ús de material protegit per drets d'autor, com s'especifica
 A part d'aquests requisits mínims, pots ampliar el teu projecte com ho creguis oportú. Explora!
 
 ---------------------------------------------------------------------------
+Instal·lació dependencies
+**************************
+
+npm install
+
+si hi ha errors mirem quins són faltaran dependencies per la instal·lació
+
+
+-------------------------------------------
 EXECUCIÓ PLANTILLA
 
 Comandaments terminal
@@ -37,19 +46,19 @@ Comandaments terminal
 1 - Configurar Terminal 1 --> npm start
 2 - Configurar Terminal 2 --> npm run post
 
+
+
+
 --------------------
 
 GITHUB
 
-1r pas-git add (afegir canvis)
+1r pas: git add (afegir canvis)
 
 Exemple si has modificat el arxiu index.html fas:
 git add index.html
 
-2n pas-git commit -m "missatge que vulguis" (missatge per modificacions)
+2n pas: git commit -m "missatge que vulguis" (missatge per modificacions)
 git push (pujada a git)
 
 git pull (baixada de git)
-
-
-Hola cris
