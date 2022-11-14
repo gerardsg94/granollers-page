@@ -60,6 +60,9 @@ Exemple si has modificat el arxiu index.html fas:
 git add index.html
 
 2n pas: git commit -m "missatge que vulguis" (missatge per modificacions)
+
+git status
+
 git push (pujada a git)
 
 git pull (baixada de git)
