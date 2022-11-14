@@ -61,8 +61,8 @@ git add index.html
 
 2n pas: git commit -m "missatge que vulguis" (missatge per modificacions)
 
-git status
-
-git push (pujada a git)
+3r pas: git push (pujada a git)
 
 git pull (baixada de git)
+
+git status ( serveix per controlar el estat entre passos)
