@@ -142,14 +142,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"g7yI8":[function(require,module,exports) {
+})({"7Aums":[function(require,module,exports) {
 "use strict";
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "35dcef6fcad4fa1f";
+module.bundle.HMR_BUNDLE_ID = "fe4256060641b553";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
   HMRAsset,
@@ -531,8 +531,58 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"ad02G":[function(require,module,exports) {
+},{}],"bNKaB":[function(require,module,exports) {
+const comentarios = [
+    {
+        "id": 1,
+        "comment": "M'agradat molt",
+        "user": "Gerard"
+    },
+    {
+        "id": 2,
+        "comment": "M'agradat molt l'esglesia",
+        "user": "Cristina"
+    },
+    {
+        "id": 3,
+        "comment": "Vaig estar l'altre dia. Es molt maco",
+        "user": "Maria"
+    },
+    {
+        "id": 4,
+        "comment": "La porxada \xe9s un molt bon lloc a la festa major",
+        "user": "Eric"
+    }
+];
+const commentHTML = document.querySelector(".comments");
+const form = document.querySelector(".form");
+const nameInput = document.querySelector(".inputName").value;
+const textInput = document.querySelector(".commentText").value;
+var id = 0;
+form.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    var temporaryName = document.querySelector(".inputName").value;
+    var temporaryText = document.querySelector(".commentText").value;
+    addComment(temporaryText, temporaryName);
+    getComments();
+});
+const addComment = (comment, name)=>{
+    localStorage.setItem("id", comentarios.length);
+    comentarios.push({
+        "id": comentarios.length + 1,
+        "comment": comment,
+        "user": name
+    });
+};
+const getComments = ()=>{
+    id = localStorage.getItem("id");
+    comentarios.forEach((com)=>{
+        if (com.id > id) commentHTML.innerHTML += `<div class="comment"><p class="comment-name">${com.user}</p><p>${com.comment}</p> </div>`;
+    });
+};
+localStorage.clear();
+if (localStorage.clear) getComments();
 
-},{}]},["g7yI8","ad02G"], "ad02G", "parcelRequiref4d4")
+},{}]},["7Aums","bNKaB"], "bNKaB", "parcelRequiref4d4")
 
-//# sourceMappingURL=about.cad4fa1f.js.map
+//# sourceMappingURL=index.0641b553.js.map

@@ -1,0 +1,437 @@
+* { 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body { text-align: center; }
+
+h1 { 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+h2 { 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+span {
+  font-size: 30px;
+  color: #000;
+}
+
+
+.p-justify{
+  text-align: justify;
+}
+
+.position {
+  margin-bottom: 10px;
+}
+
+.margin-top {
+ margin-top: 10px;
+}
+
+.icon-position{
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.img-width {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.container {
+  padding: 30px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.separation {
+  margin-bottom: 15px;
+}
+
+/* Header */
+
+header {
+  background-image: url(https://www.visitgranollers.com/wp-content/uploads/2020/06/Granollers-scaled.jpg); 
+  height: 500px;
+}
+
+nav ul{
+  list-style: none;
+  padding-top: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: black ;
+  text-decoration: none;
+  padding-right: 35px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+nav ul li a:hover {
+  color: #007dc1;
+}
+
+
+.link-page {
+  color: #007dc1 ;
+  padding-right: 35px;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration-line: underline;
+}
+
+/* Information Granollers */
+
+.button {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+  margin-top: 30px;
+  font-size: 30px;
+	color:#fff;
+	padding: 15px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+
+.button:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Visit */
+
+.visit-p {
+  margin-bottom: 35px;
+}
+
+.visit-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 600px 600px 600px 600px 600px 600px;
+  grid-row-gap: 50px;
+  padding-top: 25px;
+}
+
+.esglesia { grid-area: 1 / 1 / 2 / 2; }
+
+.carrer-comercial { grid-area: 2 / 1 / 3 / 2; }
+
+.porxada { grid-area: 3 / 1 / 4 / 2; }
+
+.muralla { grid-area: 4 / 1 / 5 / 2; }
+
+.congost { grid-area: 5 / 1 / 6 / 2; }
+
+.museu { grid-area: 6 / 1 / 7 / 2; }
+
+
+.visit-grid a {
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+.effect:hover {
+  opacity: 0.3;
+}
+
+.title {
+  font-size: 35px;
+}
+
+/* Visit pages */
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.img-size {
+  width: 100%;
+  height: 100%;
+}
+
+.active {
+  opacity: 0.4;
+  border: 10px solid #124d77;
+}
+
+.resume-esglesia { grid-area: 1 / 1 / 2 / 2;  }
+
+.resume-carrer-comercial { grid-area: 2 / 1 / 3 / 2; }
+
+.resume-porxada { grid-area: 1 / 2 / 2 / 3; }
+
+.resume-muralla { grid-area: 2 / 2 / 3 / 3; }
+
+.resume-congost { grid-area: 1 / 3 / 2 / 4; }
+
+.resume-museu { grid-area: 2 / 3 / 3 / 4; }
+
+/* Form */
+
+.container-form {
+  width: 100%;
+}
+
+form {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-top: 8px;
+  text-align: left;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  height: 48px;
+  border:  #000 solid 3px;
+  font-size: 30px;
+}
+
+textarea {
+  width: 100%;
+  border:  #000 solid 3px;
+  resize: none;
+  font-size: 30px;
+}
+
+/*Comments*/
+
+.comments {
+  width: 80%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border-top: #0061a7 solid 10px;
+}
+
+.comment {
+  margin-bottom: 50px;
+  padding-left: 25px;
+  text-align: justify;
+  border-left: #0061a7 solid 10px;
+}
+
+.comment-name {
+  padding-bottom: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/*Page Links*/
+
+.grid-bibliography {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  font-size: 13px;
+}
+
+.img-1 { grid-area: 1 / 1 / 2 / 2; }
+
+.text-1 { grid-area: 1 / 2 / 2 / 3; }
+
+.img-2  { grid-area: 2 / 1 / 3 / 2; }
+
+.text-2  { grid-area: 2 / 2 / 3 / 3; }
+
+.img-3  { grid-area: 3 / 1 / 4 / 2; }
+
+.text-3  { grid-area: 3 / 2 / 4 / 3; }
+
+.img-4  { grid-area: 4 / 1 / 5 / 2; }
+
+.text-4  { grid-area: 4 / 2 / 5 / 3; }
+
+.img-5  { grid-area: 5 / 1 / 6 / 2; }
+
+.text-5 { grid-area: 5 / 2 / 6 / 3; }
+
+.img-6 { grid-area: 6 / 1 / 7 / 2; }
+
+.text-6 { grid-area: 6 / 2 / 7 / 3; }
+
+.img-7 { grid-area: 7 / 1 / 8 / 2; }
+
+.text-7 { grid-area: 7 / 2 / 8 / 3; }
+
+.img-8 { grid-area: 8 / 1 / 9 / 2; }
+
+.text-8 { grid-area: 8 / 2 / 9 / 3; }
+
+.img-9 { grid-area: 9 / 1 / 10 / 2; }
+
+.text-9 { grid-area: 9 / 2 / 10 / 3; }
+
+.img-10 { grid-area: 10 / 1 / 11 / 2; }
+
+.text-10 { grid-area: 10 / 2 / 11 / 3; }
+
+
+/*Footer*/
+
+footer {
+  background-color: #007dc1;
+  color: #ffffff;
+}
+
+.info-extra {
+  margin-top: 20px;
+}
+
+.info-extra a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-top: 20px;
+  padding-right: 18px;
+}
+
+footer ul li i {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+
+/* Desktop */
+
+@media only screen and (min-width: 1200px) {
+
+header {
+  height: 350px;
+  background-size: 100%;
+}
+
+
+.container {
+  width: 60%;
+}
+
+span {
+  font-size: 17px;
+}
+
+nav ul li a {
+  font-size: 20px;
+}
+
+.link-page {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.title {
+  font-size: 20px;
+}
+
+.container-form {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.comments {
+  width: 60%;
+}
+
+.comment-name {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+input {
+  height: 48px;
+  border:  #000 solid 3px;
+  font-size: 25px;
+}
+
+textarea {
+  width: 100%;
+  border:  #000 solid 3px;
+  resize: none;
+  font-size: 25px;
+}
+
+.button {
+  font-size: 20px;
+}
+
+.visit-grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 30px;
+}
+
+.esglesia { grid-area: 1 / 1 / 2 / 2; }
+
+.carrer-comercial { grid-area: 2 / 1 / 3 / 2; }
+
+.porxada { grid-area: 1 / 2 / 2 / 3; }
+
+.muralla { grid-area: 2 / 2 / 3 / 3; }
+
+.congost { grid-area: 1 / 3 / 2 / 4; }
+
+.museu { grid-area: 2 / 3 / 3 / 4; }
+
+.info-extra a {
+  font-size: 12px;
+}
+
+.grid-bibliography {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px;
+}
+
+}
