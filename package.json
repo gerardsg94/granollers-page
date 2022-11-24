@@ -11,7 +11,7 @@
     "start": "npm-run-all clean parcel:dev",
     "post:dev": "postcss ./src/styles/main.css --output ./src/styles.css --env development --watch --verbose",
     "post:build": "postcss ./src/styles/main.css --output ./src/styles.css",
-    "build": "post:build npm-run-all clean parcel:build",
+    "build": "npm-run-all clean post:build parcel:build",
     "parcel:dev": "parcel",
     "parcel:build": "parcel build",
     "clean": "rimraf dist .parcel-cache"
