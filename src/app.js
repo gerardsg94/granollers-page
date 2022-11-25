@@ -1,25 +1,25 @@
 const comentarios = [
     {
         "id":1,
-        "comment" : "M'agradat molt",
+        "comment" : "M'agradat molt. Un lloc molt agradable per passar el dia.",
         "user": "Gerard"
 
     },
     {
         "id":2,
-        "comment" : "M'agradat molt l'esglesia",
+        "comment" : "L'interior de l'esglèsia es molt maco",
         "user": "Cristina"
 
     },
     {
         "id":3,
-        "comment" : "Vaig estar l'altre dia. Es molt maco",
+        "comment" : "Vaig estar l'altre dia amb els meus pares. Molt recomanable.",
         "user": "Maria"
 
     },
     {
         "id":4,
-        "comment" : "La porxada és un molt bon lloc a la festa major",
+        "comment" : "La porxada és un molt bon lloc a la festa major.",
         "user": "Eric"
 
     }
