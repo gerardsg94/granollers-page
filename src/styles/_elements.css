@@ -61,9 +61,12 @@ span {
 /* Header */
 
 header {
-  background-image: url(https://www.visitgranollers.com/wp-content/uploads/2020/06/Granollers-scaled.jpg); 
-  height: 500px;
+  height: 200px;
+  background-image: url(./img/Panoramica_GranollersCanovelles.jpg); 
+  background-repeat: no-repeat;
+  opacity: 0.9;
 }
+
 
 nav ul{
   list-style: none;
@@ -75,7 +78,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black ;
+  color: #fff ;
   text-decoration: none;
   padding-right: 35px;
   font-weight: bold;
@@ -83,12 +86,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #007dc1;
+  color: #00d5ff;
 }
 
 
 .link-page {
-  color: #007dc1 ;
+  color: #00d5ff ;
   padding-right: 35px;
   font-weight: bold;
   font-size: 30px;
@@ -260,7 +263,7 @@ textarea {
 .grid-bibliography {
   display: grid;
   grid-template-columns: 350px 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   font-size: 13px;
@@ -298,14 +301,6 @@ textarea {
 
 .text-8 { grid-area: 8 / 2 / 9 / 3; }
 
-.img-9 { grid-area: 9 / 1 / 10 / 2; }
-
-.text-9 { grid-area: 9 / 2 / 10 / 3; }
-
-.img-10 { grid-area: 10 / 1 / 11 / 2; }
-
-.text-10 { grid-area: 10 / 2 / 11 / 3; }
-
 
 /*Footer*/
 
@@ -341,7 +336,7 @@ footer ul li i {
 @media only screen and (min-width: 1200px) {
 
 header {
-  height: 350px;
+  height: 300px;
   background-size: 100%;
 }
 
@@ -431,7 +426,7 @@ textarea {
 .grid-bibliography {
   display: grid;
   grid-template-columns: 350px 1fr;
-  grid-template-rows: 270px 270px 270px 270px 270px 270px 270px 270px 270px 270px;
+  grid-template-rows: 270px 270px 270px 270px 270px 270px 270px 270px;
 }
 
 }
